@@ -1,0 +1,54 @@
+
+  .login-container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+  }
+  
+
+  
+  form {
+    background-color:white;
+    height: 390px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+  }
+  .logged{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .login-or{
+    display: flex;
+    justify-content: center;
+  }
+  .login-cre{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    
+   
+   
+    
+  }
+  .login-link{
+   font-size: 17px;
+   margin-bottom: 10px;
+   position: relative;
+   bottom: 7px;
+   left: 8px;
+   color:aqua;
+  }
+  
+  .login-sub:hover{
+    background-color: beige;
+    color: black;
+    pointer:cursor; 
+
+  }

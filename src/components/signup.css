@@ -1,0 +1,87 @@
+body {
+  background-image: linear-gradient( 102.7deg, rgba(253,218,255,1) 8.2%, rgba(223,173,252,1) 19.6%, rgba(173,205,252,1) 36.8%, rgba(173,252,244,1) 73.2%, rgba(202,248,208,1) 90.9% );
+   background-attachment: fixed;
+   display: flex;
+   flex-direction: column;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 20px;
+   height: 100vh;
+   overflow: hidden;
+   font: 16px/1.8 sans-serif
+ }
+/* signup.css */
+.signup-container {
+  
+  margin: auto;
+  margin-top: 100px;
+  height: 370px;
+  max-height: 380px;
+  width: 400px;
+  padding-top: 50px;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.heading {
+  margin-top: -50px;
+  align-items: center;
+  margin-left: 140px;
+}
+
+input {
+  background-color: #e2e2e296;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  width: 300px;
+  padding: 8px 20px;
+}
+
+button {
+  background-color: #4796ff;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 15px;
+  margin-top: 23px;
+  margin-right: 10px;
+  width: 300px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.check {
+  display: inline;
+  width: 15px;
+  margin-left: 20px;
+  position: relative;
+  left: 11px;
+  top: 0px;
+}
+
+span {
+  margin-top: 7px;
+  font-size: 13px;
+}
+
+.checkbox {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: center;
+  margin-left: 13px;
+  margin-top: -6px;
+}
+.butt:hover{
+  background-color: blueviolet;
+  color: white;
+  
+}
