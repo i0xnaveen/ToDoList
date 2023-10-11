@@ -2,8 +2,7 @@ const mongoose=require("mongoose");
 const express=require("express");
 const app=express();
 const cors=require('cors');
-const {objectId}=require('mongodb');
-const collection=db.collection("listinfo");
+
 app.delete("/delete-task")
 app.use(cors());
 const signupmodal=require('./modals/SignupModal');
