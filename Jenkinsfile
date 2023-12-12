@@ -21,7 +21,7 @@ pipeline{
     stage("Sonarqube-analysis"){
       steps{
         withSonarQubeEnv('SonarQube-Server'){ 
-          sh '''$SCANNER_HOME/sonar-scanner -Dsonar.projectName=ToDoList-CICD -Dsonar.projectKey=ToDoList-CICD '''
+          sh '''$SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=ToDoList-CICD -Dsonar.projectKey=ToDoList-CICD '''
         }
       }
     }
