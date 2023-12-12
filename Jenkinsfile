@@ -42,6 +42,22 @@ pipeline{
         sh "trivy fs . > trivyfs.txt"
       }    
   }
+    stage("Docker build and push"){
+      steps{
+        script{
+          withDockerRegistry(credentialsId:'dockerhub',toolname:'docker'){
+            sh "docker build -t todo ."
+            sh "docker tag todo i0xnaveen/todo:latest"
+            sh " docker push i0xnaveen/todo:latest"
+          }
+          }
+      }
+    }
+    stage("Image Scan"){
+      steps{
+        sh "trivy image ashfaque9x/youtube-clone:latest > trivyimage.txt"
+      }
+    }
         
 }
 }
