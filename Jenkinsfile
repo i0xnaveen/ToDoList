@@ -34,7 +34,7 @@ pipeline{
     }
     stage ("Build Application  "){
       steps{
-        sh "sudo su"
+        
         sh "npm install"
       }
     }
